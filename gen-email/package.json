@@ -1,0 +1,17 @@
+{
+  "name": "gen-email",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen": "tsx src/gen.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
